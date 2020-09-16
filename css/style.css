@@ -1,0 +1,285 @@
+/* 
+            =====================================
+                     Master Stylesheet
+            =====================================
+            Template Name :Burger House || HTML Template
+            Author: Shohel Rana
+            Author url: https://onlynurnobi.com;
+            Descriptions: Responsive Resturant HTML Template
+            Version: 1.0.0
+            Tag: Food, Business, Resturant
+ */
+
+/*      ======================================
+                   Table of Content
+        ======================================
+         1. Typrography
+         2.
+         3.
+         4.
+         5.
+         6.
+*/
+
+/* ===================================
+            Typrography
+   ===================================
+*/
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@400;600;700&display=swap');
+@font-face{
+    font-family: BebasNeue-Bold;
+    src: url(../fonts/BebasNeue-Bold.otf);
+}
+body,p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Alfa Slab One', cursive;
+    margin: 0;
+    padding: 0;
+    color: #3d2514;
+}
+p{  
+    color: #3d2514;
+    margin: 0;
+    padding: 0;
+}
+a{}
+
+/*==============================
+    Header Style Start Here
+ ===============================*/
+header{
+    background: #ffc657;
+}
+.header-top li p{
+    font-family: 'Montserrat', sans-serif;
+    color: #3d2514;
+    font-weight: 700;
+    font-size: 16px;
+}
+.header-top li a{
+    color: #3d2514;
+}
+.nav-link{
+    font-family: BebasNeue-Bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #3d2514 !important;
+    padding-left: 40px !important;
+    letter-spacing: 4px;
+}
+.nav-link:hover{
+    color: #bb3232 !important;
+    transition: 0.3s all ease-in-out;
+}
+.banner-content p{
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #3d2514;
+    border: 1px dashed #3d2514;
+    padding: 5px 10px;
+    max-width: 72%;
+}
+.banner-content h2{
+    text-transform: uppercase;
+    color: #3d2514;
+    font-size: 115px;
+    margin-bottom: 0;
+}
+.banner-content h3{
+    color: #3d2514;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+/*==============================
+    Burger Style Start Here
+ ===============================*/
+ #burger{
+    background: #f4f4f4;
+ }
+ .popular{
+    height: 450px;
+    background: url(../images/beef-burger.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 25px;
+    border-radius: 10px;
+ }
+ .popular p{
+    font-family: BebasNeue-Bold;
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+ }
+ .popular h3{
+    font-family: BebasNeue-Bold;
+    color: #fff;
+    font-size: 35px;
+ }
+ .taste{
+    background: url(../images/taste-burger.png);
+    height: 215px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 25px;
+    border-radius: 10px;
+ }
+ .taste p{
+    font-family: BebasNeue-Bold;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+ }
+ .taste h3{
+    font-family: BebasNeue-Bold;
+    color: #fff;
+    font-size: 35px;
+ }
+ .fresh-chili{
+    background: url(../images/chili-burger.png);
+    height: 215px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 25px;
+    border-radius: 10px;
+    margin-top: 20px;
+ }
+ .fresh-chili p{
+    font-family: BebasNeue-Bold;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+ }
+ .fresh-chili h3{
+    font-family: BebasNeue-Bold;
+    color: #fff;
+    font-size: 35px;
+ }
+
+ /*====================================
+      Mini Burger Style Start Here
+ =====================================*/
+ .burger-heading h5{
+    background: #ffc045;
+    font-family: BebasNeue-Bold;
+    font-size: 20px;
+    padding: 10px;
+    width: 18%;
+    display: block;
+    margin: 0 auto;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+ }
+ .burger-heading h2{
+    color: #3d2514;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 400;
+ }
+ .burger-heading p{
+    font-size: 17px;
+    padding: 10px 0px;
+    line-height: 27px;
+ }
+ .burger-item h3{
+    padding-top: 15px;
+    font-family: BebasNeue-Bold;
+ }
+ .burger-item p{
+    padding: 10px 0px 20px;
+ }
+ .burger-item .btn-order{
+    background: #bf2222;
+    color: #fff;
+    border-radius: 0;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 13px 30px;
+ }
+ .burger-item .btn-order:hover{
+    background: #1f1d1e;
+    transition: 0.3s all ease-in-out;
+ }
+  /*====================================
+      Event Style Start Here
+ =====================================*/
+ .event-section{
+    padding: 50px 0px;
+ }
+ .event-title h4{
+    color: #3d3d3d;
+    font-family: BebasNeue-Bold;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+ }
+ .event-title h2{
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 400;
+    text-transform: uppercase;
+ }
+  .event-title p{
+    max-width: 435px;
+    font-size: 16px;
+    padding: 20px 0px;
+  }
+  .event{
+    box-shadow: 10px 10px 30px #dcdcdc;
+  }
+  /*====================================
+      Event Style Start Here
+ =====================================*/
+ footer{
+    background: url(../images/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+ .footer-content p{
+    color: #fff;
+    max-width: 65%;
+    font-size: 15px;
+ }
+ .footer-icon .map-icon{
+    font-size: 30px;
+    color: #fff;
+ }
+ .footer-icon .mail-icon{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 900;
+ }
+ .footer-icon p{
+    font-family: BebasNeue-Bold;
+    color: #fff;
+    font-size: 18px;
+ }
+ .footer-text p{
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+ }
+ .social-media ul li i{
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    border-radius: 35px;
+    text-align: center;
+    color: #3d2514;
+    background: #fff;
+ }
+ .social-media ul li i:hover{
+    background: #ffc657;
+    transition: 0.3s all ease-in-out;
+ }

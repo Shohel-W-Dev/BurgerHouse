@@ -1,0 +1,187 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media screen and ( max-width: 575.98px) {
+	.banner-content p{
+		border: none;
+		font-size: 12px;
+		margin: 30px auto 0;
+		text-align: center;
+	}
+	.banner-content h2{
+		font-size: 65px;
+		text-align: center;
+	}
+	.banner-content h3{
+		font-size: 30px;
+		text-align: center;
+	}
+	.banner-image .img-fluid{
+		display: none;
+	}
+	.popular{
+		height: 300px;
+		margin-bottom: 20px;
+	}
+	.taste, .fresh-chili{
+		height: 150px;
+	}
+	.burger-heading h5{
+		width: 45%;
+	}
+	.burger-heading h2{
+		font-size: 36px;
+	}
+	.burger-heading p{
+		font-size: 14px;
+	}
+	.burger-item p{
+		font-size: 17px;
+	}
+	.burger-item img{
+		height: 300px;
+	}
+	.burger-item .btn-order{
+		padding: 8px 18px;
+		font-size: 14px;
+		margin-bottom: 50px;
+	}
+	.footer-logo .img-fluid{
+		height: 60px;
+		margin: 0;
+	}
+	.footer-content p{
+		max-width: 100%;
+		margin: 0 auto;
+		font-size: 15px;
+	}
+	.footer-text p{
+		font-size: 13px;
+		text-align: center;
+	}
+	.social-media ul{
+		text-align: center;
+		
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.banner-content p{
+		max-width: 63%;
+		font-size: 16px;
+		margin: 30px auto 0;
+	}
+	.banner-content h2{
+		font-size: 80px;
+		text-align: center;
+	}
+	.banner-content h3{
+		font-size: 40px;
+		text-align: center;
+	}
+	.banner-image .img-fluid{
+		height: 350px;
+		margin: 0 auto;
+		display: block;
+	}
+	.popular{
+		height: 330px;
+		margin-bottom: 20px;
+	}
+	.taste, .fresh-chili{
+		height: 170px;
+	}
+	.burger-heading h5{
+		width: 35%;
+	}
+	.burger-heading h2{
+		font-size: 36px;
+	}
+	.burger-heading p{
+		font-size: 14px;
+	}
+	.burger-item img{
+		height: 300px;
+	}
+	.footer-logo .img-fluid{
+		height: 80px;
+		margin: 0;
+	}
+	.footer-content p{
+		max-width: 100%;
+		margin: 0 auto;
+		font-size: 15px;
+	}
+	.footer-text p{
+		font-size: 13px;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.banner-content p{
+		max-width: 56%;
+		margin: 50px auto 0;
+	}
+	.banner-content h2{
+		font-size: 100px;
+		text-align: center;
+	}
+	.banner-content h3{
+		font-size: 50px;
+		text-align: center;
+	}
+	.banner-image .img-fluid{
+		height: 350px;
+		width: 500px;
+		margin: 0 auto;
+		display: block;
+	}
+	.popular{
+		height: 350px;
+		margin-bottom: 20px;
+	}
+	.taste, .fresh-chili{
+		height: 180px;
+	}
+	.burger-heading h5{
+		width: 26%;
+	}
+	.burger-heading h2{
+		font-size: 40px;
+	}
+	.burger-heading p{
+		font-size: 14px;
+	}
+	.burger-item h3{
+		font-size: 23px;
+	}
+	.burger-item p{
+		font-size: 14px;
+	}
+	.burger-item .btn-order{
+		padding: 10px 23px;
+		font-size: 14px;
+	}
+	.footer-logo .img-fluid{
+		height: 80px;
+		margin: 0;
+	}
+	.footer-content p{
+		max-width: 100%;
+		margin: 0 auto;
+		font-size: 15px;
+	}
+	.footer-text p{
+		font-size: 13px;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
